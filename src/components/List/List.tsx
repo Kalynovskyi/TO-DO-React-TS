@@ -1,10 +1,5 @@
 import ListItem from "./ListItem";
 
-interface ListProps {
-    tasks: any;
-    onRemoveItem: any;
-}
-
 const List = (props: ListProps) => {
 
     return (

@@ -3,7 +3,7 @@ import Button from "../UI/Button";
 import Card from "../UI/Card";
 
 interface FormProps {
-    onSubmitForm: any;
+    onSubmitForm: (task: Task) => void;
 }
 
 const Form = (props: FormProps) => {

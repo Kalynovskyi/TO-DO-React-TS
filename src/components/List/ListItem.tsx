@@ -1,11 +1,6 @@
 import Card from "../UI/Card";
 import convertTime from "../../helperFunctions/convertTime";
 
-interface listItemProps {
-    task: Task, 
-    chainedProps: any
-};
-
 const ListItem = (props: listItemProps) => {
     const date = props.task.time.toLocaleDateString();
     const time = convertTime(props.task.time.getHours().toString(), props.task.time.getMinutes().toString());
