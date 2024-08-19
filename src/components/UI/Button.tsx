@@ -1,7 +1,7 @@
 interface ButtonProps {
     children: React.ReactNode;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
-    type?: any;
+    type?: 'submit' | 'reset' | 'button';
 }
 
 const Button = (props: ButtonProps) => {

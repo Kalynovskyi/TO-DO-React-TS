@@ -55,7 +55,7 @@ const Form = (props: FormProps) => {
     return (
         <Card className="bg-orange-200 w-1/2">
             {!isFormVisible && (
-                <Button type="Button" onClick={handleFormVisibility}>
+                <Button type="button" onClick={handleFormVisibility}>
                     Add task
                 </Button>
             )}
@@ -86,7 +86,7 @@ const Form = (props: FormProps) => {
                     </label>
                     <span className="space-x-4">
                         <Button type="submit">Submit</Button>
-                        <Button type="Button" onClick={handleFormVisibility}>
+                        <Button type="button" onClick={handleFormVisibility}>
                             Cancel
                         </Button>
                     </span>
